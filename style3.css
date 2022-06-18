@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(228, 229, 250, 0.692);
+}
+
+
+.tall{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+}
+@media (max-width:765px){
+
+      .mainn .tall{
+        /*width: 60%;
+        margin: auto;*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 300px;
+                 
+        }
+}
+}
+
+
+
+.tall{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: row; 
+    flex-wrap: wrap;
+}
+.first{
+    background-color: orangered;
+    padding: 2rem;
+    height: 400px;
+    padding-top: 100px;
+    
+
+}
+.first h1{
+    padding-bottom: 20px;
+    color: white;
+    padding-right: 60px;
+    
+}
+.first p{
+    color: white;
+}
+.button{
+    size: 20px;
+    border-radius: 50px;
+    border: 0px;
+    color: red;
+    padding: 10px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.second{
+    background-color: rgb(102, 255, 0);
+    padding: 2rem;
+    height: 400px;
+    padding-top: 100px;
+}
+.second h1{
+    padding-bottom: 20px;
+    color: white;
+    padding-right: 60px;
+    
+}
+.second p{
+    color: white;
+    justify-content: center;
+}
+.third{
+    background-color: rgb(5, 138, 87);
+    padding: 2rem;
+    height: 400px;
+    padding-top: 100px;
+    
+}
+.third h1{
+    padding-bottom: 20px;
+    color: white;
+    padding-right: 60px;
+    
+}
+.third p{
+    color: white;
+    
+    
+}
